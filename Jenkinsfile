@@ -36,7 +36,7 @@ pipeline {
             }
         }
 
-        stage ('CSheckstyle Analysis') {
+        stage ('Checkstyle Analysis') {
             steps {
                 sh 'mvn checkstyle:checkstyle'
             }
